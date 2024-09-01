@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music.ly Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Music.ly Clone</h1>
+        <div id="auth">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="signUp()">Sign Up</button>
+            <button onclick="logIn()">Log In</button>
+        </div>
+        <div id="upload-section">
+            <input type="file" id="videoFile" accept="video/*">
+            <input type="text" id="videoTitle" placeholder="Video Title">
+            <textarea id="videoDescription" placeholder="Description"></textarea>
+            <button onclick="uploadVideo()">Upload</button>
+        </div>
+        <div id="video-feed"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
