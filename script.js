@@ -1,5 +1,5 @@
 const playFabTitleId = "496B7";
-const githubRepo = "https://github.com/SnowDev9099/musical.ly-repo";
+const githubRepo = "SnowDev9099/musical.ly-repo";
 const githubToken = "984878";
 
 // PlayFab User Authentication
