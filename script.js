@@ -1,13 +1,13 @@
 const playFabTitleId = "496B7";
 const githubRepo = "https://github.com/SnowDev9099/musical.ly-repo";
-const githubToken = "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN";
+const githubToken = "984878";
 
 // PlayFab User Authentication
 function signUp() {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    fetch(`https://YOUR_PLAYFAB_TITLE.playfabapi.com/Client/RegisterPlayFabUser`, {
+    fetch(`https://496B7.playfabapi.com/Client/RegisterPlayFabUser`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -25,7 +25,7 @@ function logIn() {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    fetch(`https://YOUR_PLAYFAB_TITLE.playfabapi.com/Client/LoginWithPlayFab`, {
+    fetch(`https://496B7.playfabapi.com/Client/LoginWithPlayFab`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
